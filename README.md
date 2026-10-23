@@ -1,12 +1,14 @@
 # University Student Services Assistant
 
-Stage 1 foundation for the HCLTech AI Engineer Hackathon build prompt. This repository is intentionally incomplete until the required official DTU PDFs are supplied. It does not invent official documents, clauses, or policy values.
+Stage 2 foundation for the HCLTech AI Engineer Hackathon build prompt. The repository is intentionally not claiming full specification compliance because only two real DTU source documents are currently available; the prompt requires at least three.
 
 ## Current stage
 
-Implemented and tested: project skeleton, environment configuration, SQLite schema matching the Annex C core tables, Pydantic v2 request/response models, FastAPI foundation endpoints, audit persistence, Docker Compose, Streamlit foundation UI, and pytest tests.
+Implemented: project skeleton, environment configuration, SQLite schema matching the Annex C core tables, Pydantic v2 request/response models, FastAPI foundation endpoints, audit persistence, Docker Compose, Streamlit foundation UI, pytest tests, Stage 2 Source Register, page-aware coverage matrix, and proposed fictional synthetic-policy parameters.
 
-Not yet implemented: official DTU corpus, coverage matrix, synthetic policy PDFs, RAG/ChromaDB indexing, AI-generated synthetic student data, deterministic tools, LangGraph workflow, live ingestion, full evaluation, and production-grade UI. These are deliberately deferred to later stages because the supplied specification requires real DTU documents before synthetic parameters are chosen.
+The two source files are in `data/documents/`. The scanned examination notice has a user-supplied companion transcription at `data/documents/Notice_Studnt_O26_240826.transcript.txt`; this is not treated as a third document.
+
+Not yet implemented: synthetic policy PDFs, RAG/ChromaDB indexing, AI-generated synthetic student data, deterministic tools, LangGraph workflow, live ingestion, full evaluation, and production-grade UI. Synthetic documents and student data are blocked until the proposed parameters in `docs/COVERAGE_MATRIX.md` are explicitly approved.
 
 ## Run locally without Docker
 
@@ -34,20 +36,10 @@ cp .env.example .env
 docker compose up --build
 ```
 
-Ollama is not silently replaced by a cloud model. The foundation defaults to `MOCK_LLM=true`; later stages will document host-to-container Ollama connectivity and pre-flight the configured model.
+## Stage 2 status
 
-## Foundation API examples
-
-```bash
-curl http://localhost:8000/health
-curl http://localhost:8000/sources
-curl -X POST http://localhost:8000/ask \\
-  -H 'Content-Type: application/json' \\
-  -d '{"question":"What is the policy?"}'
-```
-
-`/ingest` returns a deliberate Stage 1 response until the real-corpus and ingestion stages are implemented.
+Read `docs/COVERAGE_MATRIX.md` for verified source references, unsupported topics, proposed synthetic values, and the approval gate. The synthetic policy layer is fictional by design and must never be described as official DTU policy.
 
 ## Required next input
 
-Place at least three verified official DTU PDFs in `data/documents/` and provide their genuine metadata. The build must stop for coverage-matrix and synthetic-parameter approval before creating the synthetic policy layer or student dataset.
+Approve or revise the proposed synthetic parameters and amendment effective date. A third verified DTU document is still needed to satisfy the original real-corpus minimum.
