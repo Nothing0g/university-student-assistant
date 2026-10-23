@@ -1,0 +1,4 @@
+{
+  "invalid_outputs_caught": [],
+  "corrections": "Exact edge values were set deterministically after LLM generation using the approved rule values."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "student_id": "S1001",
+    "field": "cgpa",
+    "value": 7.0
+  },
+  {
+    "student_id": "S1001",
+    "field": "attendance",
+    "value": 32
+  },
+  {
+    "student_id": "S1003",
+    "field": "result",
+    "value": "FAIL"
+  },
+  {
+    "student_id": "S1005",
+    "field": "result",
+    "value": "DETAINED"
+  },
+  {
+    "student_id": "S1006",
+    "field": "active_backlogs",
+    "value": 3
+  }
+]

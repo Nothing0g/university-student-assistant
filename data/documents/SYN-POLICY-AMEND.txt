@@ -1,0 +1,20 @@
+SYNTHETIC DEMO — Academic Services Amendment
+
+Fictional policy created only to demonstrate the hackathon system. This is NOT an official DTU policy.
+
+Issuer: HCLTech hackathon demo (fictional)
+
+Effective date
+This amendment is effective from 2026-09-01.
+
+2.1 Amendment to attendance
+This amendment supersedes SYN-POLICY-BASE#2.1 and changes the minimum attendance for an end-semester examination from 75 percent to 80 percent.
+
+2.2 Unchanged condonation
+Clause 2.2 remains available from 65 percent, subject to the amended clause 2.1 and the two-course limit in clause 2.3.
+
+3. Superseded real references
+For the demo precedence layer only, this fictional amendment relates to DTU-EXAM-2026-08-24#p1 and DTU-TP-2025-26#31. It does not alter official DTU policy.
+
+4. Upcoming before effective date
+Before 2026-09-01 this amendment is upcoming and the baseline fictional rule applies.

@@ -1,0 +1,1 @@
+authorized smoke-test text

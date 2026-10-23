@@ -1,0 +1,41 @@
+SYNTHETIC DEMO — Student Academic Services Policy
+
+Fictional policy created only to demonstrate the hackathon system. This is NOT an official DTU policy.
+
+Issuer: HCLTech hackathon demo (fictional)
+
+2.1 Attendance
+A student must have at least 75 percent attendance in a registered course to appear in an end-semester examination.
+
+2.2 Attendance condonation
+A student with attendance from 65 percent up to the minimum may request condonation for no more than two courses.
+
+2.3 Cross-reference
+The condonation request is subject to clause 2.1 and approval by the fictional Academic Services Office.
+
+3.1 Pass marks
+A pass requires at least 40 marks out of 100 total marks.
+
+3.2 External marks
+A pass also requires at least 24 marks out of 60 external marks.
+
+3.3 Results
+ABSENT and DETAINED are not passing results.
+
+4.1 Supplementary eligibility
+Supplementary assessment is available for FAIL or ABSENT in no more than two courses, but not for DETAINED.
+
+4.2 Procedure
+The student submits the fictional form to the Academic Services Office within seven calendar days of result publication.
+
+5.1 Placement CGPA
+For this fictional demo only, placement eligibility requires CGPA of at least 7.0.
+
+5.2 Placement backlogs
+For this fictional demo only, active backlogs must be no more than 2.
+
+5.3 Placement result condition
+A student with a DETAINED result is not eligible in this fictional demo.
+
+6. Exception
+A documented accessibility or medical exception may be reviewed by the fictional committee; it does not change the calculated result automatically.

@@ -1,0 +1,1 @@
+Validated and loaded 30 students, 6 courses, 90 attendance rows, 90 results rows

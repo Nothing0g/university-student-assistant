@@ -1,0 +1,19 @@
+{
+  "model": "gpt-6-luna",
+  "method": "OpenAI-compatible Manus built-in LLM proxy",
+  "response_usage": {
+    "completion_tokens": 1554,
+    "prompt_tokens": 295,
+    "total_tokens": 1849,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": null,
+      "reasoning_tokens": 117,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null
+    }
+  }
+}
