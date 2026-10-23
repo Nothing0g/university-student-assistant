@@ -1,6 +1,10 @@
 from __future__ import annotations
 import argparse, csv, sqlite3
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from app.database.db import connect, init_db
 
 STUDENT_FIELDS=['student_id','full_name','programme','batch_year','current_semester','cgpa','active_backlogs']
